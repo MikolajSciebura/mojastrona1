@@ -1,0 +1,95 @@
+[08-Nov-2025 19:36:59 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:06 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:13 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:16 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:16 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:17 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:17 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:17 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:17 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:17 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:18 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:37:19 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 19:59:32 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:54
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(54): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 54
+[08-Nov-2025 20:02:53 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:55
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 55
+[08-Nov-2025 20:03:14 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:55
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 55
+[08-Nov-2025 20:03:49 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'vh12228_mikolaj'@'localhost' to database 'vh12228_mstechpckontakt' in /home/vh12228/mstechpc.pl/send_email.php:55
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(55): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 55
+[08-Nov-2025 20:06:07 Europe/Warsaw] PHP Fatal error:  Uncaught TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in /home/vh12228/mstechpc.pl/send_email.php:4
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(4): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 4
+[08-Nov-2025 20:12:10 Europe/Warsaw] PHP Fatal error:  Uncaught TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in /home/vh12228/mstechpc.pl/send_email.php:4
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(4): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 4
+[08-Nov-2025 20:15:24 Europe/Warsaw] PHP Fatal error:  Uncaught TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in /home/vh12228/mstechpc.pl/send_email.php:4
+Stack trace:
+#0 /home/vh12228/mstechpc.pl/send_email.php(4): mysqli->__construct()
+#1 {main}
+  thrown in /home/vh12228/mstechpc.pl/send_email.php on line 4
