@@ -22,7 +22,7 @@ $email = trim($_POST['email'] ?? '');
 $package = trim($_POST['package'] ?? '');
 $message = trim($_POST['message'] ?? '');
 $website = trim($_POST['website'] ?? ''); // Honeypot
-$terms = isset($_POST['terms']); // Checkbox
+$rodo = isset($_POST["rodo"]); // Checkbox
 
 // Walidacja pól
 if (!empty($website)) {
@@ -32,8 +32,8 @@ if (!empty($website)) {
     exit;
 }
 
-if (!$terms) {
-    $response['message'] = 'Musisz zaakceptować regulamin.';
+if (!$rodo) {
+    $response['message'] = 'Musisz zaakceptować politykę prywatności i zgody RODO.';
     echo json_encode($response);
     exit;
 }

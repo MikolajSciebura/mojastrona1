@@ -1,731 +1,445 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
-  <link rel="preload" as="image" href="hero.webp" fetchpriority="high" imagesizes="100vw">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <link rel="preload" as="style" href="style.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naprawa Komputerów Częstochowa & Kłobuck | Serwis Laptopów | Informatyk</title>
+    <meta name="description" content="Twój komputer wolno działa? Zbiłeś matrycę? Szybka i tania naprawa laptopów oraz komputerów w Częstochowie i Kłobucku. Dojazd do klienta. Darmowa diagnoza!">
+    <meta name="keywords" content="serwis komputerowy częstochowa, naprawa laptopów kłobuck, informatyk częstochowa, pogotowie komputerowe kłobuck, serwis dell czestochowa, naprawa hp kłobuck, czyszczenie laptopa częstochowa">
 
-  <!-- SEO -->
-  <title>Serwis Komputerowy Częstochowa & Kłobuck | Naprawa i Składanie PC - MStechPC</title>
-  <meta name="description"
-    content="Profesjonalny serwis komputerowy w Częstochowie i Kłobucku. Oferujemy naprawę laptopów, składanie komputerów gamingowych, optymalizację systemów i usuwanie wirusów. Dojazd do klienta!">
-  <meta name="author" content="MStechPC">
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:300">
-  <meta name="keywords"
-    content="serwis komputerowy Częstochowa, naprawa komputerów Kłobuck, informatyk Częstochowa, składanie komputerów, serwis laptopów Częstochowa, pogotowie komputerowe Kłobuck, MStechPC">
-  <link rel="canonical" href="https://mstechpc.pl/">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="preload" as="image" href="hero.webp">
 
-  <!-- OPEN GRAPH -->
-  <meta property="og:title" content="MStechPC - Profesjonalne usługi komputerowe">
-  <meta property="og:description"
-    content="Specjalizujemy się w montażu, naprawie i optymalizacji komputerów. Wydajność, precyzja, spokój - to nasze motto.">
-  <meta property="og:image" content="https://mstechpc.pl/images/og-image.jpg">
-  <meta property="og:image:alt" content="MStechPC - profesjonalny serwis komputerowy">
-  <meta property="og:url" content="https://mstechpc.pl/">
-  <meta property="og:site_name" content="MStechPC">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="pl_PL">
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "MStechPC - Serwis Komputerowy Częstochowa",
-  "url": "https://mstechpc.pl",
-  "logo": "https://mstechpc.pl/logo-112.png",
-  "image": "https://mstechpc.pl/hero.webp",
-  "description": "Profesjonalny serwis komputerowy w Częstochowie i Kłobucku. Naprawa laptopów, składanie komputerów gamingowych, pomoc informatyczna i SEO.",
-  "telephone": "+48 786 587 930",
-  "email": "kontakt.mstechpc@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "ul. Strażacka 29",
-    "addressLocality": "Kamyk",
-    "postalCode": "42-125",
-    "addressRegion": "Śląskie",
-    "addressCountry": "PL"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 50.9064,
-    "longitude": 19.0486
-  },
-  "openingHours": [
-    "Mo-Fr 09:00-18:00",
-    "Sa 10:00-16:00"
-  ],
-  "priceRange": "PLN",
-  "areaServed": [
-    "Częstochowa",
-    "Kłobuck",
-    "Kamyk",
-    "Miedźno",
-    "Mykanów"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "47"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Oferta MStechPC",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "HexaPlan – doradztwo & planowanie",
-          "description": "Konsultacja, dobór podzespołów, lista zakupowa."
-        },
-        "price": "100 PLN",
-        "priceCurrency": "PLN"
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "MStechPC - Serwis Komputerowy Częstochowa & Kłobuck",
+      "description": "Profesjonalny serwis komputerowy i naprawa laptopów w Częstochowie i Kłobucku. Oferujemy darmową diagnozę, dojazd do klienta i gwarancję na naprawy.",
+      "image": "https://mstechpc.pl/hero.webp",
+      "@id": "https://mstechpc.pl",
+      "url": "https://mstechpc.pl",
+      "telephone": "+48786587930",
+      "email": "kontakt.mstechpc@gmail.com",
+      "priceRange": "złzł",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Częstochowa",
+        "postalCode": "42-200",
+        "addressCountry": "PL"
       },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "OptiCore – modernizacja & optymalizacja",
-          "description": "Modernizacja podzespołów, testy, optymalizacja BIOS i OS."
-        },
-        "price": "150 PLN",
-        "priceCurrency": "PLN"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.811819,
+        "longitude": 19.120306
       },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "BuildMaster – nowy PC od podstaw",
-          "description": "Kompletny montaż nowego komputera, instalacja systemu, konfiguracja."
-        },
-        "price": "200 PLN",
-        "priceCurrency": "PLN"
-      }
-    ]
-  },
-  "review": [
-    {
-      "@type": "Review",
-      "author": "Jan Kowalski",
-      "reviewBody": "Świetna obsługa, szybka naprawa komputera. Polecam!",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5"
-      }
-    },
-    {
-      "@type": "Review",
-      "author": "Anna Nowak",
-      "reviewBody": "Złożyli mi komputer marzeń. Profesjonalnie i terminowo.",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5"
-      }
-    }
-  ],
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Jak wygląda proces współpracy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Zaczynamy od analizy potrzeb. Następnie rekomendujemy rozwiązania, po akceptacji realizujemy montaż, modernizację, testy i konfigurację."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Jaki jest czas realizacji?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Konsultacje odbywają się w ciągu 24h. Montaż trwa 1–3 dni robocze po skompletowaniu części."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Czy oferujecie wsparcie zdalne?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tak, oferujemy wsparcie zdalne w cenach podanych w cenniku."
-      }
-    }
-  ],
-  "contactPoint": [
-    {
-      "@type": "ContactPoint",
-      "telephone": "+48 786 587 930",
-      "contactType": "customer service",
-      "availableLanguage": "Polish",
-      "areaServed": "PL"
-    }
-  ]
-}
-</script>
-
-  <!-- ICONS -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
-  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-
-  <!-- THEME -->
-  <meta name="theme-color" content="#0b1224">
-  <meta name="color-scheme" content="dark">
-
-  <!-- CRITICAL CSS -->
-  <style>
-    .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 1020;
-      background: #0b1224cc;
-      border-bottom: 1px solid #ffffff0f;
-      backdrop-filter: blur(12px)
-    }
-
-    .header-flex {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      min-height: 4rem;
-      gap: 1rem
-    }
-
-    .hero {
-      position: relative;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden
-    }
-
-    .hero-bg {
-      position: absolute;
-      inset: 0;
-      z-index: -1
-    }
-
-    .hero-gradient {
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle at 20% 20%, #38bdf84d, transparent 50%), radial-gradient(circle at 80% 80%, #60a5fa40, transparent 50%), linear-gradient(180deg, #0b122499, #0b1224)
-    }
-
-    .hero-img-lcp {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -1
-    }
-
-    /* Desktop-only safeguards */
-    @media (min-width: 769px) {
-      .hamburger {
-        display: none !important
-      }
-
-      .nav {
-        display: flex !important;
-        position: static !important;
-        max-height: none !important
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Częstochowa"},
+        {"@type": "City", "name": "Kłobuck"},
+        {"@type": "City", "name": "Kamyk"},
+        {"@type": "City", "name": "Miedźno"},
+        {"@type": "City", "name": "Mykanów"},
+        {"@type": "City", "name": "Libidza"},
+        {"@type": "City", "name": "Wrzosowa"},
+        {"@type": "City", "name": "Blachownia"}
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Usługi Komputerowe",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Naprawa laptopów"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Wymiana matrycy"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Przyspieszanie komputera (SSD)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Usuwanie wirusów"
+            }
+          }
+        ]
       }
     }
-  </style>
+    </script>
 </head>
-
 <body>
 
-  <!-- HEADER -->
-  <header class="site-header" role="banner">
-    <div class="container header-flex">
-      <h1 class="brand">MStechPC</h1>
-      <nav class="nav" role="navigation" aria-label="Główna nawigacja witryny">
-        <a href="#hero" class="active">Start</a>
-        <a href="#about">Dlaczego ja?</a>
-        <a href="#offer">Usługi</a>
-        <a href="#process">Jak działam?</a>
-        <a href="#service-area">Gdzie działam?</a>
-        <a href="#reviews">Opinie</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact" class="btn btn-primary">Kontakt</a>
-      </nav>
-
-      <button class="hamburger" type="submit" aria-label="Otwórz menu główne" aria-expanded="false"
-        aria-controls="main-navigation">
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <section id="hero" class="hero" role="banner">
-    <img class="hero-img-lcp" src="hero.webp" alt="Serwis komputerowy MStechPC Częstochowa" fetchpriority="high" width="1920" height="1080">
-    <div class="hero-gradient" aria-hidden="true"></div>
-    <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
-    <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
-    <div class="container hero-inner">
-      <h2 class="hero-title">Twój Informatyk w Częstochowie i Kłobucku</h2>
-      <p class="hero-sub">
-        Profesjonalny serwis komputerowy, składanie PC na zamówienie i szybka pomoc techniczna. Sprawię, że Twój sprzęt będzie działał jak nowy!
-      </p>
-      <div class="hero-cta">
-        <a href="#offer" class="btn btn-primary" role="button">Sprawdź moje usługi</a>
-        <a href="#contact" class="btn btn-ghost" role="button">Darmowa wycena</a>
-      </div>
-
-      <div class="hero-stats">
-        <div><strong>100+</strong><span>Złożonych komputerów</span></div>
-        <div><strong>150+</strong><span>Zadowolonych klientów</span></div>
-        <div><strong>24h</strong><span>Szybka reakcja</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- O MNIE -->
-  <section id="about" class="section" role="main" aria-labelledby="about-title">
-    <div class="container">
-      <div class="section-divider"></div>
-      <h3 id="about-title" class="section-title">Zalety MStechPC</h3>
-      <div class="grid cards-3 mobile-carousel">
-        <article class="card" role="article">
-          <header class="card-header">
-            <div class="card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
-              </svg>
-            </div>
-            <h4>Bezpieczeństwo danych</h4>
-          </header>
-          <p>Twoje prywatne pliki są u mnie bezpieczne. Przed każdą naprawą dbam o kopię zapasową i poufność powierzonych mi informacji.</p>
-        </article>
-
-        <article class="card" role="article">
-          <header class="card-header">
-            <div class="card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" />
-                <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
-              </svg>
-            </div>
-            <h4>Ekspresowa naprawa</h4>
-          </header>
-          <p>Większość usterek usuwam w 24-48h. Wiem, jak ciężko funkcjonować bez komputera, dlatego priorytetyzuję szybkość działania.</p>
-        </article>
-
-        <article class="card" role="article">
-          <header class="card-header">
-            <div class="card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-              </svg>
-            </div>
-            <h4>Transparentność</h4>
-          </header>
-          <p>Zawsze informuję o kosztach przed przystąpieniem do pracy. Brak ukrytych opłat i jasna komunikacja na każdym etapie.</p>
-        </article>
-      </div>
-      <div class="carousel-indicators"></div>
-    </div>
-  </section>
-
-  <!-- USŁUGI -->
-  <section id="offer" class="section" role="main" aria-labelledby="offer-title">
-    <div class="container">
-      <div class="section-divider"></div>
-      <h3 id="offer-title" class="section-title">Profesjonalne Usługi IT</h3>
-
-      <div class="grid cards-3 mobile-carousel">
-        <article class="card" role="article">
-          <header class="card-header">
-            <div class="card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.5 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z" />
-              </svg>
-            </div>
-            <h4>Naprawa Komputerów i Laptopów</h4>
-          </header>
-          <p>Szybka diagnostyka i usuwanie awarii sprzętowych oraz programowych. Wymiana matryc, klawiatur, naprawa układów chłodzenia i zasilania w Częstochowie i okolicach.</p>
-          <ul class="card-list">
-            <li>Wymiana podzespołów</li>
-            <li>Czyszczenie i konserwacja</li>
-            <li>Naprawa po zalaniu</li>
-          </ul>
-        </article>
-
-        <article class="card" role="article">
-          <header class="card-header">
-            <div class="card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" />
-              </svg>
-            </div>
-            <h4>Składanie PC na Zamówienie</h4>
-          </header>
-          <p>Marzysz o komputerze do gier, pracy biurowej lub obróbki wideo? Dobiorę najlepsze części w Twoim budżecie i złożę zestaw z najwyższą dbałością o cable management.</p>
-          <ul class="card-list">
-            <li>Dobór komponentów</li>
-            <li>Profesjonalny montaż</li>
-            <li>Instalacja systemu</li>
-          </ul>
-        </article>
-
-        <article class="card" role="article">
-          <header class="card-header">
-            <div class="card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
-              </svg>
-            </div>
-            <h4>Oprogramowanie i SEO</h4>
-          </header>
-          <p>Optymalizacja systemów Windows, usuwanie wirusów, przyspieszanie pracy komputera oraz podstawowa pomoc w pozycjonowaniu stron dla lokalnych firm.</p>
-          <ul class="card-list">
-            <li>Usuwanie malware</li>
-            <li>Odzyskiwanie danych</li>
-            <li>Optymalizacja Windows</li>
-          </ul>
-        </article>
-      </div>
-
-      <div class="pricing-footer">
-          <a href="#contact" class="btn btn-primary" role="button">Darmowa konsultacja</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROCES -->
-  <section id="process" class="section" role="main" aria-labelledby="process-title">
-    <div class="container">
-      <div class="section-divider"></div>
-      <h3 id="process-title" class="section-title">Jak działam?</h3>
-      <div class="process-steps">
-        <div class="step">
-          <div class="step-number">1</div>
-          <h4>Kontakt</h4>
-          <p>Dzwonisz lub piszesz do mnie z opisem problemu. Ustalamy wstępne szczegóły.</p>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo">
+                    <i class="fas fa-microchip"></i>
+                    <span>MStechPC</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#uslugi">Usługi</a></li>
+                    <li><a href="#dlaczego-my">Dlaczego my?</a></li>
+                    <li><a href="#proces">Jak działamy</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#kontakt" class="btn-contact">Darmowa Diagnoza</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="step">
-          <div class="step-number">2</div>
-          <h4>Diagnostyka</h4>
-          <p>Odbieram sprzęt (lub przyjeżdżasz do mnie) i sprawdzam, co dokładnie wymaga naprawy.</p>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container">
+            <div class="hero-content">
+                <span class="text-primary" style="font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Twój lokalny informatyk</span>
+                <h1>Twój komputer znowu będzie jak nowy.</h1>
+                <p>Ekspresowa naprawa laptopów i komputerów w <strong>Częstochowie, Kłobucku i okolicach</strong>. Nie tracisz czasu – my zajmiemy się resztą!</p>
+                <div class="cta-group">
+                    <a href="#kontakt" class="btn btn-primary">Zamów darmową wycenę</a>
+                    <a href="tel:+48786587930" class="btn btn-outline"><i class="fas fa-phone"></i> +48 786 587 930</a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Zadowolenia</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24h</h3>
+                        <p>Czas diagnozy</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>12m</h3>
+                        <p>Gwarancji</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="hero.webp" alt="Naprawa laptopa Częstochowa">
+            </div>
+        </section>
+
+        <!-- Common Problems -->
+        <section class="section bg-alt">
+            <div class="container">
+                <div class="text-center mb-50">
+                    <h2 class="text-secondary">Masz jeden z tych problemów?</h2>
+                    <p>Nie martw się, naprawialiśmy to już tysiące razy.</p>
+                </div>
+                <div class="grid">
+                    <div class="card">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h3>Wolne działanie</h3>
+                        <p>System ładuje się wieczność? Przyspieszamy komputery i laptopy poprzez optymalizację i montaż szybkich dysków SSD.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Nie włącza się</h3>
+                        <p>Brak reakcji na przycisk? Naprawiamy układy zasilania, płyty główne i wymieniamy uszkodzone podzespoły.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-laptop-medical"></i>
+                        <h3>Zbita matryca</h3>
+                        <p>Ekran jest pęknięty lub ma paski? Wymieniamy matryce w laptopach wszystkich marek od ręki.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-virus"></i>
+                        <h3>Wirusy i błędy</h3>
+                        <p>Dziwne komunikaty? Usuwamy złośliwe oprogramowanie i przywracamy stabilność systemu Windows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us -->
+        <section id="dlaczego-my" class="section">
+            <div class="container">
+                <div style="display: flex; align-items: center; gap: 60px; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <h2 class="text-primary">Dlaczego warto nam zaufać?</h2>
+                        <p>Jesteśmy liderem serwisu IT w regionie Częstochowy i Kłobucka. Nasze podejście to <strong>przejrzystość, szybkość i uczciwość</strong>.</p>
+                        <ul style="list-style: none; margin-top: 30px;">
+                            <li style="margin-bottom: 20px; display: flex; gap: 15px;">
+                                <i class="fas fa-check-circle text-primary" style="font-size: 1.5rem;"></i>
+                                <div>
+                                    <strong>Darmowa Diagnoza</strong>
+                                    <p>Sprawdzamy usterkę za darmo przed podjęciem jakichkolwiek działań.</p>
+                                </div>
+                            </li>
+                            <li style="margin-bottom: 20px; display: flex; gap: 15px;">
+                                <i class="fas fa-truck text-primary" style="font-size: 1.5rem;"></i>
+                                <div>
+                                    <strong>Dojazd do Klienta</strong>
+                                    <p>Nie musisz dźwigać komputera. Przyjedziemy do Ciebie w Kłobucku lub Częstochowie.</p>
+                                </div>
+                            </li>
+                            <li style="margin-bottom: 20px; display: flex; gap: 15px;">
+                                <i class="fas fa-user-shield text-primary" style="font-size: 1.5rem;"></i>
+                                <div>
+                                    <strong>Gwarancja na każdą naprawę</strong>
+                                    <p>Na każdą wykonaną usługę otrzymasz pisemną gwarancję.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="flex: 1; min-width: 300px; background: var(--bg-alt); padding: 40px; border-radius: 20px;">
+                        <h3 class="text-center mb-50">Co mówią klienci?</h3>
+                        <div class="testimonial">
+                            <p style="font-style: italic; margin-bottom: 20px;">"Szybko, tanio i profesjonalnie. Mój laptop zyskał drugie życie po wymianie dysku na SSD. Polecam każdego informatyka z tej firmy!"</p>
+                            <p><strong>- Marek z Kłobucka</strong></p>
+                        </div>
+                        <hr style="margin: 30px 0; border: none; border-top: 1px solid var(--border);">
+                        <div class="testimonial">
+                            <p style="font-style: italic; margin-bottom: 20px;">"Naprawa gniazda zasilania wykonana w jeden dzień. Bardzo miły kontakt. Najlepszy serwis komputerowy w Częstochowie."</p>
+                            <p><strong>- Anna z Częstochowy</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section id="proces" class="section bg-alt">
+            <div class="container">
+                <div class="text-center mb-50">
+                    <h2>Jak wygląda naprawa?</h2>
+                    <p>Prosty proces w 4 krokach</p>
+                </div>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <h3>Zgłoszenie</h3>
+                        <p>Dzwonisz lub piszesz do nas. Opisujesz co się dzieje z Twoim sprzętem.</p>
+                    </div>
+                    <div class="process-step">
+                        <h3>Bezpłatna wycena</h3>
+                        <p>Odbieramy sprzęt lub przyjeżdżamy na miejsce. Diagnozujemy i podajemy koszt.</p>
+                    </div>
+                    <div class="process-step">
+                        <h3>Szybka naprawa</h3>
+                        <p>Po Twojej akceptacji ruszamy do pracy. Większość napraw wykonujemy w 24-48h.</p>
+                    </div>
+                    <div class="process-step">
+                        <h3>Odbiór i radość</h3>
+                        <p>Sprawdzasz sprzęt, otrzymujesz gwarancję i cieszysz się działającym komputerem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Area Served -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center mb-50">
+                    <h2>Gdzie dojeżdżamy?</h2>
+                    <p>Obsługujemy całą Częstochowę, powiat kłobucki i okolice.</p>
+                </div>
+                <div class="area-tags">
+                    <span class="tag">Częstochowa (wszystkie dzielnice)</span>
+                    <span class="tag">Kłobuck</span>
+                    <span class="tag">Kamyk</span>
+                    <span class="tag">Libidza</span>
+                    <span class="tag">Miedźno</span>
+                    <span class="tag">Mykanów</span>
+                    <span class="tag">Wala</span>
+                    <span class="tag">Biała</span>
+                    <span class="tag">Wrzosowa</span>
+                    <span class="tag">Poczesna</span>
+                    <span class="tag">Blachownia</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="section bg-alt">
+            <div class="container">
+                <h2 class="text-center mb-50">Często zadawane pytania</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Ile kosztuje diagnoza?</h3>
+                        <p>U nas diagnoza jest zawsze <strong>0 zł</strong>, pod warunkiem wykonania naprawy. Jeśli zrezygnujesz, zapłacisz jedynie niewielką opłatę za czas poświęcony na sprawdzenie sprzętu.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Czy naprawiacie u klienta?</h3>
+                        <p>Tak! Wiele usterek (jak konfiguracja routera, instalacja systemu czy usuwanie wirusów) wykonujemy bezpośrednio u Ciebie w domu lub biurze.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Jak długo trwa naprawa?</h3>
+                        <p>Standardowe usterki naprawiamy w ciągu 1-2 dni roboczych. W przypadku konieczności sprowadzenia części, czas może się wydłużyć, o czym zawsze informujemy.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Czy dane są bezpieczne?</h3>
+                        <p>Bezpieczeństwo Twoich danych jest naszym priorytetem. Zawsze zalecamy kopię zapasową, ale dbamy o to, by pliki pozostały nienaruszone podczas serwisu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="kontakt" class="section">
+            <div class="container">
+                <div class="contact-container">
+                    <div>
+                        <h2>Masz pytanie? <span class="text-primary">Napisz do nas!</span></h2>
+                        <p class="mb-50">Odpowiadamy zazwyczaj w ciągu 30 minut.</p>
+
+                        <div style="margin-bottom: 20px;">
+                            <i class="fas fa-phone text-primary"></i> <strong>Zadzwoń:</strong><br>
+                            <a href="tel:+48786587930" style="text-decoration: none; color: inherit; font-size: 1.2rem;">+48 786 587 930</a>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <i class="fas fa-envelope text-primary"></i> <strong>E-mail:</strong><br>
+                            kontakt.mstechpc@gmail.com
+                        </div>
+                        <div>
+                            <i class="fas fa-clock text-primary"></i> <strong>Godziny otwarcia:</strong><br>
+                            Pon - Pt: 9:00 - 18:00
+                        </div>
+                    </div>
+                    <form id="contact-form" action="send_email.php" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstname">Imię</label>
+                                <input type="text" id="firstname" name="firstname" required placeholder="Jan">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname">Nazwisko</label>
+                                <input type="text" id="lastname" name="lastname" placeholder="Kowalski">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required placeholder="jan@przyklad.pl">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone" placeholder="786 587 930">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="package">Interesuje mnie</label>
+                            <select id="package" name="package">
+                                <option value="Naprawa laptopa">Naprawa laptopa</option>
+                                <option value="Serwis PC">Serwis komputera stacjonarnego</option>
+                                <option value="Odzyskiwanie danych">Odzyskiwanie danych</option>
+                                <option value="Inna usługa">Inna usługa / Diagnoza</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Opisz problem</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Opisz krótko usterkę..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="rodo" name="rodo" required>
+                            <label for="rodo">
+                                Akceptuję <a href="#">politykę prywatności</a> i wyrażam zgodę na przetwarzanie danych (RODO) w celu obsługi zgłoszenia.
+                            </label>
+                        </div>
+                        <!-- Honeypot -->
+                        <div style="display:none;">
+                            <input type="text" name="website" value="">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Wyślij darmowe zgłoszenie</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-links">
+                    <a href="/" class="logo" style="margin-bottom: 20px;">
+                        <i class="fas fa-microchip"></i>
+                        <span>MStechPC</span>
+                    </a>
+                    <p>Twój zaufany partner w świecie technologii. Naprawa laptopów, serwis komputerowy i pomoc informatyczna w Częstochowie i Kłobucku.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Nasze Usługi</h4>
+                    <ul>
+                        <li><a href="#">Naprawa laptopów</a></li>
+                        <li><a href="#">Serwis komputerowy</a></li>
+                        <li><a href="#">Odzyskiwanie danych</a></li>
+                        <li><a href="#">Instalacja systemów</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Regiony</h4>
+                    <ul>
+                        <li><a href="#">Częstochowa</a></li>
+                        <li><a href="#">Kłobuck</a></li>
+                        <li><a href="#">Miedźno</a></li>
+                        <li><a href="#">Mykanów</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Pomoc</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                        <li><a href="tel:+48786587930">Zadzwoń do nas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 MStechPC Częstochowa & Kłobuck. Wszelkie prawa zastrzeżone.
+            </div>
         </div>
-        <div class="step">
-          <div class="step-number">3</div>
-          <h4>Wycena i Akceptacja</h4>
-          <p>Podaję dokładny koszt i czas naprawy. Nie robię nic bez Twojej zgody.</p>
-        </div>
-        <div class="step">
-          <div class="step-number">4</div>
-          <h4>Realizacja i Odbiór</h4>
-          <p>Naprawiam sprzęt, testuję go i oddaję w Twoje ręce w pełni sprawny.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- GDZIE DZIAŁAM -->
-  <section id="service-area" class="section" role="main" aria-labelledby="area-title">
-    <div class="container">
-      <div class="section-divider"></div>
-      <h3 id="area-title" class="section-title">Serwis Komputerowy: Częstochowa, Kłobuck i okolice</h3>
-      <div class="area-content">
-        <p>Moje usługi świadczę głównie na terenie powiatu kłobuckiego i częstochowskiego. Dojeżdżam do klientów w takich miejscowościach jak:</p>
-        <div class="area-list">
-          <span>Częstochowa</span>
-          <span>Kłobuck</span>
-          <span>Kamyk</span>
-          <span>Libidza</span>
-          <span>Biała</span>
-          <span>Mykanów</span>
-          <span>Miedźno</span>
-          <span>Wala</span>
-          <span>Krzepice</span>
-        </div>
-        <p class="area-note">Nie widzisz swojej miejscowości? Skontaktuj się – na pewno coś wymyślimy!</p>
-      </div>
-    </div>
-  </section>
+    <script src="sw-register.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
 
-  <!-- OPINIE (Placeholder dla sekcji opinii) -->
-  <section id="reviews" class="section" role="main" aria-labelledby="reviews-title">
-    <div class="container">
-      <div class="section-divider"></div>
-      <h3 id="reviews-title" class="section-title">Co mówią moi klienci?</h3>
-      <div id="reviews-container" class="reviews-grid">
-         <!-- Opinie zostaną załadowane przez JS -->
-      </div>
-      <div class="reviews-button-wrapper" style="text-align: center; margin-top: 30px;">
-        <a
-          href="https://www.google.com/search?q=mstechpc+kamyk+opinie"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="google-reviews-button"
-          style="
-            display: inline-block;
-            background-color: #4285F4;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 6px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-          "
-        >
-          Zobacz więcej opinii w Google
-        </a>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- FAQ -->
-  <section id="faq" class="section" role="main" aria-labelledby="faq-title">
-    <div class="container">
-      <div class="section-divider"></div>
-      <h3 id="faq-title" class="section-title">Najczęściej zadawane pytania</h3>
-      <div class="faq-container">
-        <div class="faq">
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Jak wygląda proces współpracy?</summary>
-            <div class="faq-body">
-              Zaczynamy od analizy potrzeb (online, telefonicznie lub osobiście). Następnie rekomendujemy rozwiązania, a
-              po Twojej akceptacji realizujemy montaż, modernizację, testy i konfigurację. Każdy etap jest konsultowany,
-              abyś miał pełną kontrolę nad projektem.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Jaki jest czas realizacji?</summary>
-            <div class="faq-body">
-              Konsultacje odbywają się zwykle w ciągu 24 godzin. Montaż lub modernizacja trwa 1–3 dni robocze po
-              skompletowaniu wszystkich części. Wysyłki kurierem zajmują dodatkowo czas transportu.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Czy pomagacie w zakupach części?</summary>
-            <div class="faq-body">
-              Tak. Przygotowuję listę rekomendowanych części z linkami do sklepów i orientacyjnymi cenami. Możesz je
-              kupić samodzielnie lub skorzystać z mojej pomocy przy zamówieniach.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Czy oferujecie wsparcie zdalne?</summary>
-            <div class="faq-body">
-              Tak, oferuję wsparcie zdalne w cenach podanych w cenniku. W wielu przypadkach wystarczy 30–60 minut, aby
-              rozwiązać problem, zaktualizować system czy zoptymalizować wydajność.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Jak działa opcja wysyłki kurierem?</summary>
-            <div class="faq-body">
-              Możesz wysłać komputer do mnie kurierem. Po otrzymaniu sprzętu przeprowadzam diagnostykę, naprawę lub
-              montaż, testuję go, a następnie odsyłam w pełni sprawny sprzęt. Dbam o bezpieczeństwo i odpowiednie
-              pakowanie.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Jakie promocje obowiązują dla nowych klientów?</summary>
-            <div class="faq-body">
-              Dla nowych klientów oferuję rabat 10% na pierwszą usługę. Dzięki temu możesz skorzystać z moich usług w
-              atrakcyjnej cenie i przekonać się o jakości obsługi.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Czy mogę przyjechać osobiście?</summary>
-            <div class="faq-body">
-              Oczywiście! Możesz umówić się na wizytę i przyjechać ze sprzętem osobiście. To również okazja, aby omówić
-              wszystkie szczegóły i dostosować usługę do Twoich potrzeb.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Jak dbacie o bezpieczeństwo danych?</summary>
-            <div class="faq-body">
-              Podczas diagnostyki i naprawy zachowuję pełną ostrożność. Jeśli to możliwe, zalecam wykonanie kopii
-              zapasowej danych. Wszystkie działania są przeprowadzane profesjonalnie, aby chronić Twoje pliki.
-            </div>
-          </details>
-
-          <details class="faq-item fade">
-            <summary role="button" aria-expanded="false">Czy możecie przygotować nowy komputer od A do Z?</summary>
-            <div class="faq-body">
-              Tak, oferuję pełen montaż nowego PC, od doboru części, przez montaż i konfigurację systemu, aż po testy i
-              wsparcie posprzedażowe. Możesz skorzystać z pakietu <strong>BuildMaster</strong>.
-            </div>
-          </details>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- KONTAKT -->
-  <section id="contact" class="section" role="main" aria-labelledby="contact-title">
-    <div class="container">
-      <div class="section-divider"></div>
-      <h2 class="section-title">Skontaktuj się ze mną</h2>
-      <div class="contact-grid">
-        <div class="contact-info">
-          <h3>Informacje kontaktowe</h3>
-          <p>Masz pytania lub chcesz umówić się na konsultację? Skorzystaj z jednej z poniższych opcji kontaktu.</p>
-          <ul>
-            <li>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path
-                  d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-              </svg>
-              <a href="tel:+48786587930">786-587-930</a>
-            </li>
-            <li>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path
-                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-              </svg>
-              <a href="mailto:kontakt.mstechpc@gmail.com">kontakt.mstechpc@gmail.com</a>
-            </li>
-          </ul>
-          <div class="contact-buttons">
-             <a href="https://wa.me/48786587930?text=Cześć!%20Chcę%20się%20z%20Tobą%20skontaktować."
-              class="contact-btn whatsapp" target="_blank">WhatsApp</a>
-            <a href="https://www.messenger.com/?locale=pl_PL" class="contact-btn messenger" target="_blank">Messenger</a>
-          </div>
-        </div>
-
-        <form id="contact-form" class="form contact-form" action="send_email.php" method="post" novalidate>
-          <div class="form-grid-2">
-            <div>
-              <label for="c-firstname">Imię <span class="required">*</span></label>
-              <input id="c-firstname" name="firstname" type="text" required>
-            </div>
-            <div>
-              <label for="c-lastname">Nazwisko</label>
-              <input id="c-lastname" name="lastname" type="text">
-            </div>
-          </div>
-          <div class="form-grid-2">
-            <div>
-              <label for="c-phone">Telefon</label>
-              <input id="c-phone" name="phone" type="tel">
-            </div>
-            <div>
-              <label for="c-email">E-mail <span class="required">*</span></label>
-              <input id="c-email" name="email" type="email" required>
-            </div>
-          </div>
-          <div>
-            <label for="c-package">Wybierz usługę</label>
-            <select id="c-package" name="package">
-              <option value="Inne">Inne / indywidualne zapytanie</option>
-              <option value="HexaPlan">HexaPlan – doradztwo & planowanie</option>
-              <option value="OptiCore">OptiCore – modernizacja & konserwacja</option>
-              <option value="BuildMaster">BuildMaster – nowy PC od podstaw</option>
-            </select>
-          </div>
-          <div>
-            <label for="c-msg">Wiadomość <span class="required">*</span></label>
-            <textarea id="c-msg" name="message" rows="4" required></textarea>
-          </div>
-
-          <!-- Honeypot - pułapka na boty -->
-          <div class="form-honeypot" style="display:none;">
-              <label for="c-website">Website</label>
-              <input type="text" id="c-website" name="website" tabindex="-1" autocomplete="off">
-          </div>
-
-          <!-- Checkbox z regulaminem -->
-          <div class="form-checkbox">
-            <input type="checkbox" id="c-terms" name="terms" required>
-            <label for="c-terms">
-              Akceptuję <a href="/regulamin.html" target="_blank">regulamin</a> i politykę prywatności <span class="required">*</span>
-            </label>
-          </div>
-
-          <div id="contact-status" class="form-message" role="status" style="display:none"></div>
-          <div class="form-actions">
-            <button type="submit" class="btn btn-primary">Wyślij</button>
-          </div>
-        </form>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- STOPKA -->
-  <footer class="footer" role="contentinfo">
-    <div class="container footer-grid">
-
-      <!-- KONTAKT -->
-      <div class="footer-col">
-        <h2>Kontakt</h2>
-        <ul>
-          <li>📧 <a href="mailto:kontakt.mstechpc@gmail.com">kontakt.mstechpc@gmail.com</a></li>
-          <li>📞 <a href="tel:+48786587930">786-587-930</a></li>
-          <li>🏠 ul. Strażacka 29, 42-125 Kamyk</li>
-        </ul>
-      </div>
-
-      <!-- SOCIAL MEDIA -->
-      <div class="footer-col">
-        <div class="footer-social">
-          <!-- Facebook -->
-          <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#1877F2">
-              <path
-                d="M22.675 0h-21.35C.597 0 0 .597 0 1.333v21.334C0 23.403.597 24 1.325 24H12.82V14.708h-3.404v-3.625h3.404V8.413c0-3.36 2.04-5.186 5.026-5.186 1.427 0 2.653.106 3.01.154v3.49l-2.065.001c-1.62 0-1.933.77-1.933 1.897v2.492h3.867l-.504 3.625h-3.363V24h6.592c.728 0 1.325-.597 1.325-1.333V1.333C24 .597 23.403 0 22.675 0z" />
-            </svg>
-          </a>
-
-          <!-- Instagram -->
-          <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#E1306C">
-              <path
-                d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.343 3.608 1.318.975.975 1.256 2.242 1.318 3.608.058 1.265.069 1.645.069 4.849s-.012 3.584-.07 4.849c-.062 1.366-.343 2.633-1.318 3.608-.975.975-2.242 1.256-3.608 1.318-1.265.058-1.645.069-4.849.069s-3.584-.012-4.849-.07c-1.366-.062-2.633-.343-3.608-1.318-.975-.975-1.256-2.242-1.318-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.849c.062-1.366.343-2.633 1.318-3.608.975-.975 2.242-1.256 3.608-1.318C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.736 0 8.332.012 7.052.072 5.775.132 4.603.42 3.6 1.422 2.597 2.424 2.308 3.596 2.248 4.874.012 8.332 0 8.736 0 12s.012 3.668.072 4.948c.06 1.278.348 2.45 1.35 3.452 1.002 1.002 2.174 1.29 3.452 1.35C8.332 23.988 8.736 24 12 24s3.668-.012 4.948-.072c1.278-.06 2.45-.348 3.452-1.35 1.002-1.002 1.29-2.174 1.35-3.452.06-1.28.072-1.684.072-4.948s-.012-3.668-.072-4.948c-.06-1.278-.348-2.45-1.35-3.452-1.002-1.002-2.174-1.29-3.452-1.35C15.668.012 15.264 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0-2.881 1.44 1.44 0 0 0 0 2.881z" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <p>© 2025 MStechPC. Wszelkie prawa zastrzeżone.</p>
-    </div>
-  </footer>
-
-
-  <!-- LOADING INDICATOR -->
-  <div id="loading" class="loading">
-    <div class="loading-spinner"> </div>
-  </div>
-
-  <script src="script.js" defer></script>
-
-  <!-- SERVICE WORKER REGISTRATION -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(registration => console.log('SW registered'))
-          .catch(error => console.log('SW registration failed'));
-      });
-    }
-  </script>
-
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
